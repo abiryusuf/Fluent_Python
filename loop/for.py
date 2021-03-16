@@ -48,7 +48,7 @@ color = ['red','black', 'green']
 #     for c in range(n):
 #         sum += c * c
 #     return sum
-print(sum_squares(10))
+# print(sum_squares(10))
 
 # total and find the length
 
@@ -56,3 +56,22 @@ num = [4, 6, 7, 8]
 
 sum1 = 0
 lenght = 0
+for value in num:
+    sum1 += value
+    lenght += 1
+print("Total sum: " + str(sum1) + " - Average: " + str(sum1/lenght))
+
+animals = ["Lion", "Zebra", "Dolphin", "Monkey"]
+char = 0
+for animal in animals:
+    char += len(animal)
+print("Total characters: {}, Average length: {}".format(char, char/len(animal)))
+
+
+def factorial(n):
+    result = 1
+    for x in range(1, n + 1):
+        result = result * x
+    return result
+
+print(factorial(5))
