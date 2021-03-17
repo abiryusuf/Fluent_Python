@@ -7,3 +7,7 @@ print(message)
 
 for x in bicycles:
     print(x[0].title() + x[1].title())
+
+
+bicycles.append("car")
+print(bicycles[-1].title())
