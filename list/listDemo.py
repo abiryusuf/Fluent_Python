@@ -42,15 +42,16 @@
 # print(cars)
 
 # Range 
-thisList = ["apple", "banana", "cherry", "orange", "melon", "mango"]
+# thisList = ["apple", "banana", "cherry", "orange", "melon", "mango"]
 
-y = thisList[1:3]
+# y = thisList[1:3]
 
-print(y)
+# print(y)
 
-t = "apple" in thisList
-print(t)
+# t = "apple" in thisList
+# print(t)
 
-#
-z = [x * 2 for x in range(1, 20, 2)]
-print(z)
+# List compreshensions
+
+z = [x * 2 for x in range(1, 20) if x % 2 == 0]
+print("Even {}" .format(z))
