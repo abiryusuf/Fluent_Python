@@ -69,12 +69,22 @@ print(bicycles[-2].title())
 # for i, person in enumerate(name):
 #     print("{} - {}".format(i+1, person))
 
-def get_word(sentence, n):
-	# Only proceed if n is positive 
-	if n > 0:
-		words = sentence.split()
-		# Only proceed if n is not more than the number of words 
-		if n <= len(words):
-			return(words[n])
-	return("")
-print(get_word('I am abir', 1))
+# def get_word(sentence, n):
+# 	# Only proceed if n is positive 
+# 	if n > 0:
+# 		words = sentence.split()
+# 		# Only proceed if n is not more than the number of words 
+# 		if n <= len(words):
+# 			return(words[n-1])
+# 	return("")
+# print(get_word('I am abir', 1))
+
+def skip_elements(elements):
+    new_list = []
+    i = 0
+    for c in elements:
+        if i % 2 == 0:
+            new_list += [c]
+        i += 1
+    return new_list
+print(skip_elements([2,45,6,7,89]))
