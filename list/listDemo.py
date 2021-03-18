@@ -2,6 +2,8 @@ bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 
 print(bicycles[0].title())
 
+print(bicycles[-2].title())
+
 # message = "My first bicyle was a " + bicycles[0].title() + "."
 # print(message)
 
@@ -63,6 +65,16 @@ print(bicycles[0].title())
 # print("Even: {}".format(z))
 
 # Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object.
-name = ['Abir', 'Usan', 'Mim', 'Arju']
-for i, person in enumerate(name):
-    print("{} - {}".format(i+1, person))
+# name = ['Abir', 'Usan', 'Mim', 'Arju']
+# for i, person in enumerate(name):
+#     print("{} - {}".format(i+1, person))
+
+def get_word(sentence, n):
+	# Only proceed if n is positive 
+	if n > 0:
+		words = sentence.split()
+		# Only proceed if n is not more than the number of words 
+		if n <= len(words):
+			return(words[n])
+	return("")
+print(get_word('I am abir', 1))
