@@ -1,6 +1,6 @@
-# bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 
-# print(bicycles[0].title())
+print(bicycles[0].title())
 
 # message = "My first bicyle was a " + bicycles[0].title() + "."
 # print(message)
@@ -24,8 +24,8 @@
 # bicycles.append("trek")
 # print(bicycles)
 
-# bicycles.pop(0)
-# print(bicycles)
+bicycles.pop(0)
+print(bicycles)
 
 # too_expensive = 'honda'
 # bicycles.remove(too_expensive)
@@ -52,15 +52,15 @@
 # print(t)
 
 # List compreshensions
-multiples = []
-for c in range(1,10 + 1):
-    multiples.append(c * 2)
-print(multiples)
+# multiples = []
+# for c in range(1,10 + 1):
+#     multiples.append(c * 2)
+# print(multiples)
 
-z = [x * 2 for x in range(1, 20) if x % 2 == 0]
-print("Even {}" .format(z))
+# z = [x * 2 for x in range(1, 20) if x % 2 == 0]
+# print("Even {}" .format(z))
 
 # Enumerate() method adds a counter to an iterable and returns it in a form of enumerate object.
-name = ['Abir', 'Usan', 'Mim', 'Arju']
-for i, person in enumerate(name):
-    print("{} - {}".format(i +1, person))
+# name = ['Abir', 'Usan', 'Mim', 'Arju']
+# for i, person in enumerate(name):
+#     print("{} - {}".format(i +1, person))
