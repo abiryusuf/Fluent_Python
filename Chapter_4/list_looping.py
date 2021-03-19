@@ -1,5 +1,5 @@
 magicians = ['Alice', 'David', 'Carolina']
 
 for magician in magicians:
-    if magician % 2 == 0:
-print(magician.title() + ", that was a great trick")
+    # print(magician.title() + ", that was a great trick")
+    print("I can not wait to see your next trick, " + magician.title() + ".\n")
