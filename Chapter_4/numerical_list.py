@@ -29,3 +29,16 @@ def function(n):
         squares.append(value *2)
     return squares
 print(function(6))
+
+# Simple statistcs with a list of numbers
+
+num = [2,4,6,7,8,9]
+
+res = (min(num))
+print("Min number: {}".format(res))
+
+maxNum = (max(num))
+print('Max number: ' + str(maxNum))
+
+total = sum(num)
+print('Total - {}'.format(total))
