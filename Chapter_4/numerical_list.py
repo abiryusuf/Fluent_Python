@@ -53,6 +53,8 @@
 #         break
 #     print(c)
 
+
+# try yourself
 numbers = list(range(1, 1000001))
 
 minNum = (min(numbers))
@@ -84,3 +86,15 @@ cube = [value ** 3 for value in range(1,11)]
 
 for x in cube:
     print(x)
+
+# Looping through a slice 
+
+names = ['Abir', 'Yusuf', 'Mim', 'Madiha']
+
+print('Here are the first three names on my list')
+
+for name in names[:3]:
+    print(name)
+
+total = (sum(numbers))
+print('Total: ' + str(total))
