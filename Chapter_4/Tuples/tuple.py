@@ -27,3 +27,15 @@ buffet_style =('a', 'b', 'c', 'f', 'g')
 print('\nReplacing two items: ')
 for newItem in buffet_style:
     print(newItem)
+
+
+languages = ['Python', 'C', 'C++', 'Java']
+i = 0
+
+for language in languages:
+    print(i + 1, language)
+    i+=1
+
+for i, language in enumerate(languages):
+    print('{} - {}'.format(i+1, language))
+
