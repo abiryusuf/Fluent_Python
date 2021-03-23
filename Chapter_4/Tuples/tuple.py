@@ -39,3 +39,7 @@ for language in languages:
 for i, language in enumerate(languages):
     print('{} - {}'.format(i+1, language))
 
+for x,y in enumerate(languages):
+    print('{} - {}'.format(x +1, y))
+
+
