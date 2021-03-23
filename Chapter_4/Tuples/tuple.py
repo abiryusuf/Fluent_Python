@@ -43,3 +43,14 @@ for x,y in enumerate(languages):
     print('{} - {}'.format(x +1, y))
 
 
+winners = ('abir', 'yusuf', 'mim')
+
+i = 0
+for winner in winners:
+    print(i +1, winner)
+    i+=1
+
+for index, name in enumerate(winners):
+    print('{} - {}'.format(index + 1, name))
+
+
