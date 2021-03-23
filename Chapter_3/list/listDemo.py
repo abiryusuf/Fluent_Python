@@ -4,6 +4,9 @@ print(bicycles[0].title())
 
 print(bicycles[-2].title())
 
+x = bicycles.reverse()
+print(x)
+
 # message = "My first bicyle was a " + bicycles[0].title() + "."
 # print(message)
 
@@ -79,12 +82,15 @@ print(bicycles[-2].title())
 # 	return("")
 # print(get_word('I am abir', 1))
 
-def skip_elements(elements):
-    new_list = []
-    i = 0
-    for c in elements:
-        if i % 2 == 0:
-            new_list += [c]
-        i += 1
-    return new_list
-print(skip_elements([2,45,6,7,89]))
+# def skip_elements(elements):
+#     new_list = []
+#     i = 0
+#     for c in elements:
+#         if i % 2 == 0:
+#             new_list += [c]
+#         i += 1
+#     return new_list
+# print(skip_elements([2,45,6,7,89]))
+
+
+
