@@ -5,3 +5,5 @@ aline_0 = {
 
 
 print(aline_0)
+
+print(aline_0['point'])
