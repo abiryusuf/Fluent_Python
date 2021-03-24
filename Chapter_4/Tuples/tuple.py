@@ -54,3 +54,12 @@ for index, name in enumerate(winners):
     print('{} - {}'.format(index + 1, name))
 
 
+# 
+def skip_elements(elements):
+    ele = []
+    for index, element in enumerate(elements):
+        if index % 2 == 0:
+            ele.append('{}'.format(element))
+    return ele
+
+print(skip_elements(['Orange', 'Pineapple', 'Strawberry', 'Kiwi', 'Peach']))

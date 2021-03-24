@@ -3,3 +3,7 @@ aline_0 = {
     'point': 5
 }
 print(aline_0)
+
+# index 
+x = aline_0['color']
+print(x)
