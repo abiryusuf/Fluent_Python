@@ -60,5 +60,7 @@ person = {
     "City": "NY"
 }
 print(person)
-for info in person.items():
-    print(info)
+for key, value in person.items():
+    # print("\nKey: " + key)
+    # print("Valus: " + str(value))
+    print("Key {} - Value {}".format(key, value))
