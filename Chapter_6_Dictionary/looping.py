@@ -17,3 +17,15 @@ for name in languages.keys():
     print(name)
     if name in friends:
         print(" Hi " + name.title() + ", I see your favorite language is " + languages[name].title())
+
+
+# sorted
+for name in sorted(languages.keys()):
+    print(name.title() + ", thank for taking the poll")
+
+# values
+for language in sorted(languages.values()):
+    print(language.title())
+
+for name, language in sorted(languages.items()):
+    print("{}'s likes {}".format(name.title(), language.title()))
