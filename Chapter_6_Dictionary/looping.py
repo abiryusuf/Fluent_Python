@@ -10,3 +10,10 @@ for name, language in languages.items():
 
 x = languages['abir'].title()
 print(x)
+
+friends = ['phil', 'sarah']
+
+for name in languages.keys():
+    print(name)
+    if name in friends:
+        print(" Hi " + name.title() + ", I see your favorite language is " + languages[name].title())
