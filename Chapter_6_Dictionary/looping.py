@@ -33,3 +33,17 @@ for name, language in sorted(languages.items()):
 
 for language in set(languages.values()):
     print(language)
+
+
+# try it yourself
+rivers = {
+    'bangladesh': 'karnafuly',
+    'new york': "hudson",
+    'canada': 'abc'
+}
+
+for name, river in rivers.items():
+    print("The {} runs through {}.".format(name.title(), river.title()))
+
+for name in rivers.keys():
+    print("Country: " + name.title())
