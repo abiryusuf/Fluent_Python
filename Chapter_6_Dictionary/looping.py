@@ -29,3 +29,7 @@ for language in sorted(languages.values()):
 
 for name, language in sorted(languages.items()):
     print("{}'s likes {}".format(name.title(), language.title()))
+
+
+for language in set(languages.values()):
+    print(language)
