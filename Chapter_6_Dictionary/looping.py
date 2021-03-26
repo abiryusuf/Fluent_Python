@@ -47,3 +47,14 @@ for name, river in rivers.items():
 
 for name in rivers.keys():
     print("Country: " + name.title())
+
+for value in rivers.values():
+    print(value.title())
+
+peoples = ['abir', 'mim', 'mukter', 'arafat']
+
+for people in peoples:
+    if people in languages.keys():
+        print('Thank you for taking the poll, ' + people.title())
+    else:
+        print(people.title() + ' whats your favorite langiages')
